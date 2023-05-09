@@ -1,0 +1,272 @@
+{
+	"stages": {
+		"1": {
+			"waves": {
+				"1": {
+					"startTime": 0,
+					"enemyCount": 2,
+					"spawnDelay": 0.5,
+					"enemy": {
+						"type": "Regular",
+						"size": 5,
+						"health": 100,
+						"texture": "ufo"
+					},
+					"pathing": {
+						"type": "BouncePathing",
+						"speed": 1.0,
+						"startingPosition": {
+							"x": 1900,
+							"y": 0
+						}
+					},
+					"bullets": {
+						"1": {
+							"radius": 10,
+							"damage": 5,
+							"texture": "missile",
+							"pathing": {
+								"type": "BulletPathing2",
+								"speed": 1.0
+							}
+						}
+					}
+				},
+				"2": {
+					"startTime": 5,
+					"enemyCount": 2,
+					"spawnDelay": 0.5,
+					"enemy": {
+						"type": "Regular",
+						"size": 5,
+						"health": 100,
+						"texture": "ufo"
+					},
+					"pathing": {
+						"type": "GruntPathing1",
+						"speed": 1.0,
+						"startingPosition": {
+							"x": -400,
+							"y": 0
+						}
+					},
+					"bullets": {
+						"1": {
+							"radius": 10,
+							"damage": 5,
+							"texture": "missile",
+							"pathing": {
+								"type": "BulletPathing2",
+								"speed": 1.0
+							}
+						}
+					}
+				}
+			}
+		},
+		"2": {
+			"waves": {
+				"1": {
+					"startTime": 0,
+					"enemyCount": 1,
+					"spawnDelay": 0.5,
+					"enemy": {
+						"type": "MidBoss",
+						"size": 5,
+						"health": 100,
+						"texture": "midboss"
+					},
+					"pathing": {
+						"type": "BouncePathing",
+						"speed": 1.0,
+						"startingPosition": {
+							"x": 1900,
+							"y": 0
+						}
+					},
+					"bullets": {
+						"1": {
+							"radius": 10,
+							"damage": 5,
+							"texture": "missile",
+							"pathing": {
+								"type": "BulletPathing2",
+								"speed": 1.0
+							}
+						},
+						"2": {
+							"radius": 10,
+							"damage": 5,
+							"texture": "missile",
+							"pathing": {
+								"type": "BulletCircularPathing",
+								"speed": 1.0
+							}
+						},
+						"3": {
+							"radius": 10,
+							"damage": 5,
+							"texture": "missile",
+							"pathing": {
+								"type": "BulletSpiralPathing",
+								"speed": 1.0
+							}
+						},
+						"4": {
+							"radius": 10,
+							"damage": 5,
+							"texture": "missile",
+							"pathing": {
+								"type": "BulletZigzagPathing",
+								"speed": 1.0
+							}
+						},
+						"5": {
+							"radius": 10,
+							"damage": 5,
+							"texture": "missile",
+							"pathing": {
+								"type": "BulletPathing2",
+								"speed": 1.0
+							}
+						}
+					}
+				}
+			}
+		},
+		"3": {
+			"waves": {
+				"1": {
+					"startTime": 0,
+					"enemyCount": 2,
+					"spawnDelay": 0.5,
+					"enemy": {
+						"type": "Regular",
+						"size": 5,
+						"health": 100,
+						"texture": "ufo"
+					},
+					"pathing": {
+						"type": "GruntPathing1",
+						"speed": 1.0,
+						"startingPosition": {
+							"x": 1900,
+							"y": 0
+						}
+					},
+					"bullets": {
+						"1": {
+							"radius": 10,
+							"damage": 5,
+							"texture": "missile",
+							"pathing": {
+								"type": "BulletPathing2",
+								"speed": 1.0
+							}
+						}
+					}
+				},
+				"2": {
+					"startTime": 5,
+					"enemyCount": 2,
+					"spawnDelay": 0.5,
+					"enemy": {
+						"type": "Regular",
+						"size": 5,
+						"health": 100,
+						"texture": "ufo"
+					},
+					"pathing": {
+						"type": "GruntPathing1",
+						"speed": 1.0,
+						"startingPosition": {
+							"x": -400,
+							"y": 0
+						}
+					},
+					"bullets": {
+						"1": {
+							"radius": 10,
+							"damage": 5,
+							"texture": "missile",
+							"pathing": {
+								"type": "BulletPathing2",
+								"speed": 1.0
+							}
+						}
+					}
+				}
+			}
+		},
+		"4": {
+			"waves": {
+				"1": {
+					"startTime": 0,
+					"enemyCount": 1,
+					"spawnDelay": 0.5,
+					"enemy": {
+						"type": "FinalBoss",
+						"size": 5,
+						"health": 100,
+						"texture": "alien"
+					},
+					"pathing": {
+						"type": "SpeedChangePathing",
+						"speed": 1.0,
+						"startingPosition": {
+							"x": 1900,
+							"y": 0
+						}
+					},
+					"bullets": {
+						"1": {
+							"radius": 10,
+							"damage": 5,
+							"texture": "missile",
+							"pathing": {
+								"type": "BulletPathing2",
+								"speed": 1.0
+							}
+						},
+						"2": {
+							"radius": 10,
+							"damage": 5,
+							"texture": "missile",
+							"pathing": {
+								"type": "BulletZigzagPathing",
+								"speed": 1.0
+							}
+						},
+						"3": {
+							"radius": 10,
+							"damage": 5,
+							"texture": "missile",
+							"pathing": {
+								"type": "BulletSpiralPathing",
+								"speed": 1.0
+							}
+						},
+						"4": {
+							"radius": 10,
+							"damage": 5,
+							"texture": "missile",
+							"pathing": {
+								"type": "BulletZigzagPathing",
+								"speed": 1.0
+							}
+						},
+						"5": {
+							"radius": 10,
+							"damage": 5,
+							"texture": "missile",
+							"pathing": {
+								"type": "BulletPathing2",
+								"speed": 1.0
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

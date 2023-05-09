@@ -1,0 +1,32 @@
+For this project, we envision a game that closely resembles the original Bullet Hell Shooting Game apart from the aesthetics. There will be four phases of enemies:
+
+Phase 1:
+6 Grunts (3 from either side) spawn from just outside the top corners of the screen and follow a reflected path from one another before exiting. The path and bullet pattern will be fairly simple as this phase is more of an introductory level. ~45 seconds.
+
+Phase 2:
+2 Midbosses spawn consecutivly and move in a less predicible pattern than the grunts while shooting bullets in a more difficult to dodge pattern. ~50 seconds; 25 seconds per Midboss.
+
+Phase 3:
+This phase closely resembles phase 1 except there are more grunts and the path they follow is different but still predictable. ~45 seconds.
+
+Phase 4:
+This final boss builds upon the Midboss fight except it is more difficult with faster movements and difficult to dodge bullet patterns. It will have 2 stages that mimic the original game and may even spawn in smaller enemies that protect itself providing even more of a challenge. ~90 seconds.  
+
+------------------------------------
+
+Entity Health Scaling:
+Since we have not implemented collisions yet, it is difficult to plan how much HP each of the entities will have. Going off an arbitrary scale where a player bullet does 1 HP, this is our plan:
+
+Grunt: 5HP
+MidBoss: 30HP
+Final Boss: 100HP
+
+The HP of the player and how much damage the enemy bullets deal is even harder to scale at this point. Our vision for scaling this is that the enemies should have bullets which are dodgeable, but deal considerable damage (3-5 hit kill). This way the player feels more in control over what the get hit by and will prioritize dodging over shooting enemies. Additionally, depending on the level of the boss and the powerup stages some bullets will inflict more damage than others.
+
+-----------------------------------
+Powerups:
+For our game, both the Final Boss and the player will have powerups. Potential powerups include increased speed, increased HP, and increased attack damage. For the player, powerups will be acquired by collecting a powerup item on the screen whereas the final boss will automatically have a powerup in the form of a phase of increased attack damage. 
+
+-----------------------------------
+Aesthetics: 
+As we develop the basic structure of the game we will be using basic images to represent the players and enemies. Depending on the game development timeline, we are considering creating simple 8-bit sprite sheets for a more engaging gameplay.
